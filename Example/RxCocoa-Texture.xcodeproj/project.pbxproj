@@ -338,13 +338,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = JTEXWEH4CZ;
+						DevelopmentTeam = RTZWA2CAC9;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = JTEXWEH4CZ;
+						DevelopmentTeam = RTZWA2CAC9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -355,6 +355,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -459,9 +460,6 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RxCocoa-Texture_Example/Pods-RxCocoa-Texture_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
-				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
-				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa-Texture/RxCocoa_Texture.framework",
@@ -472,9 +470,6 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa_Texture.framework",
@@ -665,7 +660,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JTEXWEH4CZ;
+				DEVELOPMENT_TEAM = RTZWA2CAC9;
 				INFOPLIST_FILE = "RxCocoa-Texture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -684,7 +679,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JTEXWEH4CZ;
+				DEVELOPMENT_TEAM = RTZWA2CAC9;
 				INFOPLIST_FILE = "RxCocoa-Texture/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -700,7 +695,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E1C79DA561D40B89763472E /* Pods-RxCocoa-Texture_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = JTEXWEH4CZ;
+				DEVELOPMENT_TEAM = RTZWA2CAC9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -723,7 +718,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB878FDCA4BF09167F15A871 /* Pods-RxCocoa-Texture_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = JTEXWEH4CZ;
+				DEVELOPMENT_TEAM = RTZWA2CAC9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

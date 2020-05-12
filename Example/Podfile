@@ -1,5 +1,7 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'RxCocoa-Texture_Example' do
   pod 'RxCocoa-Texture', :path => '../'
   pod 'RxAlamofire'
