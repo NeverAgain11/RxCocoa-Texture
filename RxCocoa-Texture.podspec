@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RxCocoa-Texture'
-  s.version          = '3.1.0-flow'
+  s.version          = '3.1.1-flow'
   s.summary          = 'RxCocoa Extension Library for Texture'
 
   s.description      = 'This library is built on Texture with RxCocoa, RxCocoa is a framework that helps make Cocoa APIs used in iOS and OS X easier to use with reactive techniques.'
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'RxSwift', '~> 5.0'
   s.dependency 'RxCocoa', '~> 5.0'
-  s.dependency "Texture/Core", "~> 2.8"
+  s.dependency "Texture/Core", "~> 3.0"
 end
